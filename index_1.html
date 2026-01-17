@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Levi Launcher – MCPE Client</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #001b00, #002d00);
+  color: #e0f7e0;
+  overflow-x: hidden;
+}
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: rgba(0,40,0,0.6);
+  backdrop-filter: blur(15px);
+  color: #00ff44;
+  position: relative;
+}
+header h1 { font-size: 3.2rem; text-shadow: 0 0 20px #00ff44; }
+header p { font-size: 1.3rem; opacity: 0.9; margin-bottom: 20px; }
+.btn {
+  padding: 15px 45px;
+  background: #007700;
+  color: #00ff44;
+  border: 2px solid #00ff44;
+  border-radius: 35px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.btn:hover { background: #005500; box-shadow: 0 0 30px #00ff44; transform: scale(1.05); }
+section { padding: 50px 20px; max-width: 1100px; margin: auto; }
+h2 { color: #00ff44; text-align: center; margin-bottom: 25px; opacity: 0; transform: translateY(30px); animation: fadeUp 1s forwards; }
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+.panel {
+  background: rgba(0,60,0,0.35);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 15px 0;
+  box-shadow: 0 0 15px rgba(0,255,68,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.panel:hover { transform: translateY(-5px); box-shadow: 0 0 25px rgba(0,255,68,0.5); }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+footer { text-align: center; padding: 25px; font-size: 0.9rem; opacity: 0.7; }
+.animate { opacity: 0; transform: translateY(20px); animation: slideUp 0.8s forwards; }
+@keyframes slideUp { to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Levi Launcher</h1>
+  <p>The Ultimate MCPE Client Experience</p>
+  <a href="https://share.google/KOwT6jk4OxOAcG7EE" class="btn" target="_blank">Download Now</a>
+</header>
+
+<section>
+  <h2>Why Choose Levi Launcher?</h2>
+  <div class="panel animate">Enhanced performance & FPS boost</div>
+  <div class="panel animate">Advanced PvP tools</div>
+  <div class="panel animate">Customizable UI & Themes</div>
+  <div class="panel animate">Smooth gameplay & stability</div>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <div class="features">
+    <div class="panel animate">Performance Optimization</div>
+    <div class="panel animate">PvP Enhancements</div>
+    <div class="panel animate">Custom UI & Themes</div>
+    <div class="panel animate">Anti-lag & Stability</div>
+  </div>
+</section>
+
+<section class="panel" style="text-align:center;">
+  <h2>Ready to Download?</h2>
+  <a href="https://share.google/KOwT6jk4OxOAcG7EE" class="btn" target="_blank">Get Levi Launcher</a>
+</section>
+
+<footer>© 2026 Levi Launcher • Fan-made Site</footer>
+</body>
+</html>
